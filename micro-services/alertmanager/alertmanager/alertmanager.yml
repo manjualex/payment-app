@@ -1,0 +1,15 @@
+global:
+  smtp_smarthost: 'smtp.example.com:587'
+  smtp_from: 'alertmanager@example.com'
+  smtp_auth_username: 'username'
+  smtp_auth_password: 'password'
+
+route:
+  group_by: ['alertname']
+  receiver: 'default-receiver'
+
+receivers:
+  - name: 'default-receiver'
+    email_configs:
+      - to: 'manjualex55@gmail.com'
+        send_resolved: true

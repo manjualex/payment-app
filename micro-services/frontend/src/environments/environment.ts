@@ -1,6 +1,6 @@
 export const environment = {
     production: false,
-    apiUrl: 'http://localhost:80/api',
-    authServiceUrl: 'http://localhost:80/api/auth',
-    paymentServiceUrl: 'http://localhost:80/api/payments'
+    apiUrl: 'http://54.81.153.151:80/api',
+    authServiceUrl: 'http://54.81.153.151:80/api/auth',
+    paymentServiceUrl: 'http://54.81.153.151:80/api/payments'
   };
